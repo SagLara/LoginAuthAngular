@@ -34,7 +34,7 @@ Home
 
 Vista Crud Productos
 
-<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/apis.JPG" width="870" height="500" />
+<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/apis.JPG" width="890" height="600" />
 
 
 
