@@ -22,11 +22,11 @@ Vista:
 
 Login
 
-<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/login.JPG" width="600" height="500" />
+<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/login.JPG" width="650" height="420" />
 
 Registro
 
-<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/registro.JPG" width="440" height="440" />
+<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/registro.JPG" width="440" height="400" />
 
 Home
 
@@ -34,7 +34,7 @@ Home
 
 Vista Crud Productos
 
-<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/apis.JPG" width="770" height="500" />
+<img src="https://github.com/SagLara/LoginAuthAngular/blob/master/src/utils/gui/apis.JPG" width="870" height="500" />
 
 
 
