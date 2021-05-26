@@ -1,0 +1,34 @@
+<div class="content">
+    <mat-card>
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Bienvenido {{user?.userName}}</mat-card-title>
+            <mat-card-subtitle>{{user?.rol}}</mat-card-subtitle>
+        </mat-card-header>
+        <p class="line">A continuación podra observar los datos de una API pública <a href="https://pokeapi.co/"> Poke API</a> </p>
+        <hr>
+        <mat-card-content>
+            <mat-card class="example-card">
+                <mat-card-header>
+                    <mat-card-title>{{infoPokemon?.nombre}}</mat-card-title>
+                    <mat-card-subtitle># {{infoPokemon?.id}}</mat-card-subtitle>
+                </mat-card-header>
+                <hr>
+                <img src="{{infoPokemon?.img}}" alt="Poke Img Front">
+                <img src="{{infoPokemon?.shiny}}" alt="Poke Img Shine">
+                <img src="{{infoPokemon?.img_back}}" alt="Poke Img Front">
+                <img src="{{infoPokemon?.shiny_back}}" alt="Poke Img Shine">
+                <hr>
+                <mat-card-content>
+                    <div class="grid">
+                        <span class="badge bg-primary">{{infoPokemon?.tipos.primario}}</span>
+                        <span class="badge bg-dark">{{infoPokemon?.tipos.secundario}}</span>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </mat-card-content>
+    </mat-card>
+    <!-- Resources -->
+
+
+</div>

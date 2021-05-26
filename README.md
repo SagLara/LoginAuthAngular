@@ -1,5 +1,45 @@
 # LoginAuthAngular
 
+Proyecto realizado como una prueba tecnica, de un login con authenticacion con token, manejo de usaurios, roles, y consultas a API haciendo uso del Token.
+
+Se visualizan clientes e informes.
+
+Se dispone de CRUD completo de productos.
+
+Se manejan restricciones tanto desde el Front como desde la Base de Datos.
+
+Se uso ExpressJS del lado del Servidor, a continuación adjunto el link del proyecto.
+
+Uso de MySQL para la Base de Datos.
+Uso de Bootstrap para estilos.
+Uso de Font Awesome para los iconos.
+
+[BackEnd Auth Express](https://github.com/SagLara/BackEndAuthExpress)
+
+### App Gui
+
+Vista:
+
+Login
+
+<img src="" width="600" height="500" />
+
+Registro
+
+<img src="" width="440" height="440" />
+
+Home
+
+<img src="" width="650" height="500" />
+
+Vista Crud Productos
+
+<img src="" width="770" height="500" />
+
+
+
+## Angular Cli
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server

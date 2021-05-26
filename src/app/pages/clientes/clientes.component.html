@@ -1,0 +1,52 @@
+<div class="container p-2">
+
+    <div class="vista card tab">
+        <div class="vista card-header  table">
+            <h3 class="mt-2">Listado de Clientes</h3>
+        </div>
+        <div class="vista card-body">
+            <div *ngIf="clientes==[]" class="alert alert-warning text-center mt-3">
+                <h3 class="alert-heading">No hay ningun cliente para visualizar</h3>
+                <p>
+                    <i class="fa fa-exclamation fa-2x    "></i>
+                </p>
+            </div>
+            <div *ngIf="clientes!=[]" class="lista">
+                <div class="row ">
+                    <div class="th col-1">
+                        Id
+                    </div>
+                    <div class="th col-3">
+                        Nombres
+                    </div>
+                    <div class="th col-3">
+                        Apellidos
+                    </div>
+                    <div class="th col-3">
+                        Documento
+                    </div>
+                    <div class="th col-2">
+                        Tipo
+                    </div>
+                </div>
+                <div *ngFor="let cli of clientes; let i = index;" class="row fill">
+                    <div class="cell col-1">
+                        {{cli.ID_CLIENTE}}
+                    </div>
+                    <div class="cell col-3">
+                        {{cli.NOMBRES}}
+                    </div>
+                    <div class="cell col-3">
+                        {{cli.APELLIDOS}}
+                    </div>
+                    <div class="cell col-3">
+                        {{cli.DOCUMENTO}}
+                    </div>
+                    <div class="cell col-2">
+                        {{cli.TIPO_DOC}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

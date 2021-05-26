@@ -1,0 +1,36 @@
+<div class="registro">
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Registro App</h2>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="formReg" class="was-validated">
+                    <div class="form-group pbot">
+                        <label for="user">Usuario</label>
+                        <input type="text" formControlName="userName" class="form-control" id="user" required>
+                        <div class="invalid-feedback">
+                            Ingrese un usuario valido.
+                        </div>
+                    </div>
+                    <div class="form-group pbot">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" formControlName="pass" class="form-control" id="pass" required>
+                        <div class="invalid-feedback">
+                            Ingrese una contraseña valida.
+                        </div>
+                    </div>
+                    <div class="form-group pbot">
+                        <label for="validpass">Repita la Contraseña</label>
+                        <input type="password" formControlName="validpass" class="form-control" id="validpass" required>
+                        <div class="invalid-feedback">
+                            las contraseñas no coinciden.
+                        </div>
+                    </div>
+                    <hr>
+                    <button type="submit" (click)="registrar()" class="btn reg-btn btn-outline-primary btn-block btn-border-radius">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

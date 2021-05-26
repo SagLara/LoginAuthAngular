@@ -1,0 +1,55 @@
+@import '../../app.component.css';
+mat-card {
+    margin: 50px;
+    max-height: 85%;
+}
+
+mat-card-subtitle {
+    font-size: 16px;
+}
+
+mat-card-title {
+    text-transform: uppercase;
+}
+
+a {
+    color: gold;
+}
+
+a:hover {
+    color: crimson;
+    transition: color 0.5s;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.badge {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.line {
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}

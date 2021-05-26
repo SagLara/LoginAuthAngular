@@ -1,0 +1,52 @@
+<div class="container p-2">
+
+    <div class="vista card tab">
+        <div class="vista card-header  table">
+            <h3 class="mt-2">Informes de ventas Diarias</h3>
+        </div>
+        <div class="vista card-body">
+            <div *ngIf="informes==[]" class="alert alert-warning text-center mt-3">
+                <h3 class="alert-heading">No hay ningun informe para visualizar</h3>
+                <p>
+                    <i class="fa fa-exclamation fa-2x    "></i>
+                </p>
+            </div>
+            <div *ngIf="informes!=[]" class="lista">
+                <div class="row ">
+                    <div class="th col-3">
+                        Fecha
+                    </div>
+                    <div class="th col-2">
+                        # Ventas
+                    </div>
+                    <div class="th col-2">
+                        V. Mayor
+                    </div>
+                    <div class="th col-2">
+                        V. Menor
+                    </div>
+                    <div class="th col-3">
+                        V. Promedio
+                    </div>
+                </div>
+                <div *ngFor="let inf of informes; let i = index;" class="row fill">
+                    <div class="cell col-3">
+                        {{inf.FECHA | date}}
+                    </div>
+                    <div class="cell col-2">
+                        {{inf.CANT_VENTAS}}
+                    </div>
+                    <div class="cell col-2">
+                        {{inf.VENTA_MAYOR}}
+                    </div>
+                    <div class="cell col-2">
+                        {{inf.VENTA_MENOR}}
+                    </div>
+                    <div class="cell col-3">
+                        {{inf.VENTA_PROMEDIO}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

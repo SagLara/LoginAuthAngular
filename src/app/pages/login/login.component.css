@@ -1,0 +1,70 @@
+.login {
+    width: 100vw;
+    height: 100%;
+    background-color: #0a1931;
+}
+
+.container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 15%;
+}
+
+.card {
+    justify-self: center;
+    width: 75%;
+    border-color: whitesmoke;
+}
+
+.card-header {
+    color: whitesmoke;
+    background-color: #185adb;
+    text-align: center;
+    border-color: whitesmoke;
+}
+
+.card-header h2 {
+    margin-top: 15px;
+}
+
+.login-btn {
+    font-weight: 500;
+    color: #0a1931;
+    border-color: #0a1931;
+}
+
+.login-btn:hover {
+    color: whitesmoke;
+    background-color: #0a1931;
+}
+
+.card-body {
+    color: #185adb;
+    border-color: whitesmoke;
+}
+
+.card-footer {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #185adb;
+    border-color: whitesmoke;
+}
+
+.card-footer p {
+    color: whitesmoke;
+}
+
+.card-footer a {
+    color: #0a1931;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+}
